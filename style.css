@@ -1,13 +1,12 @@
 
 *{ margin: 0;
     padding: 0;
-    box-sizing: border-box ;
-    text-decoration: none;
+    
 }
 
 body{
 
-    background-color: rgb(202, 145, 118);
+   background-color: black;
 }
 @font-face {
     font-family: 'delinda';
@@ -21,54 +20,57 @@ body{
     text-align: center;
     border-top: 0.6px solid rgb(230, 234, 241);
     border-bottom: 0.6px solid rgb(230, 234, 241);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    color: aliceblue;
 }
 .me{ display: flex;
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    gap: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    gap: 10px;
     text-align: center;
     align-items: center;
     border-bottom: 0.6px solid rgb(230, 234, 241);
+    color: aliceblue;
 
 }
 .parteum{
     display: flex;
     align-items: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
     gap: 50px;
     text-align: center;
-
+    color: aliceblue;
 }
 .partedois{
     display: flex;
     align-items: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
     gap: 50px;
     text-align: center;
+    color: aliceblue;
 }
 .partetres{
     display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
     gap: 50px;
     text-align: center;
-
+    color: aliceblue;
 }
 .imagem1{
-    max-width: 350px;
-    max-height: 350px;
+    width: 250px;
+    height: 250px;
     border-style: dotted;
     border-width: 1PX;
 
@@ -78,4 +80,7 @@ body{
     align-items: center;
     font-size: 25px;
     margin-bottom: 10px;
+    font-size: 700;
+    text-shadow: 1px 1px #7148a3;
+    color: aliceblue;
 }
